@@ -23,14 +23,16 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',  
         justifyContent: 'space-between',
-        marginTop: 20,
+        marginTop: 10,
+        marginBottom: 10,
 
 
     },
     itemLeft: {
         flexDirection: 'row',
         alignItems: 'center',
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',
+       
     },
     square: {
         width: 24,
@@ -42,6 +44,8 @@ const styles = StyleSheet.create({
     },
     itemText: {
         maxWidth: '80%',
+        fontSize: 20,
+
     },
     circular: {
         width: 12,
